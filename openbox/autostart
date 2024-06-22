@@ -35,12 +35,11 @@ conky &
 
 #openbox --reconfigure &
 
-
-
 # Battery/AC applet
 #cbatticon -n &
 
-# Network applenm-applet &
+# Network applet
+nm-applet &
 
 # Set keyboard layout..
 setxkbmap --layout "us" &
