@@ -416,6 +416,16 @@
                 <command>librewolf</command>
             </action>
         </keybind>
+        <keybind key='W-KP_Add'>
+            <action name='Execute'>
+                <command>amixer sset Master 5%+</command>
+            </action>
+        </keybind>
+        <keybind key='W-KP_Subtract'>
+            <action name='Execute'>
+                <command>amixer sset Master 5%-</command>
+            </action>
+        </keybind>
     </keyboard>
     <mouse>
         <dragThreshold>1</dragThreshold>
