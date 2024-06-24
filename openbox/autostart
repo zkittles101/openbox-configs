@@ -7,6 +7,12 @@
 # Set screen size more for own use in VB..
 # xrandr -s 1920x1080
 
+# Apply background image..
+setwall &
+
+# Set keyboard layout..
+setxkbmap --layout "us" &
+
 #PowerManagement
 xfce4-power-manager &
 
@@ -16,43 +22,23 @@ polybar -config $HOME/.config/polybar/openbox-bar.ini -r &
 #IBus for amharic
 ibus-daemon -rxd &
 
-# Start tint2 panel
-#tint2 &
-
 #Transparency and Fade
-xcompmgr -r 9.8 -o 0.61 -l -13.8 -t -14.5 -I 0.017 -O 0.02 -D 6.0 -c -C -f -F -n
+xcompmgr -r 9.8 -o 0.61 -l -13.8 -t -14.5 -I 0.017 -O 0.02 -D 6.0 -c -C -f -F -n &
+
 #xfce notification daemon
 xfce4-notifyd &
 
-# Apply background image..
-/home/zkitty/.fehbg &
-#nitrogen --restore &
-
-# Onscreen information
+ Onscreen information
 conky &
-
-#Quick Polybar Fix
-
-#openbox --reconfigure &
-
-# Battery/AC applet
-#cbatticon -n &
 
 # Network applet
 nm-applet &
 
-# Set keyboard layout..
-setxkbmap --layout "us" &
-
-# Session manager
-lxsession &
-
 # LastFm scrobbler 
 rescrobbled &
-
-#Volume Scroller 
-alsavolume &
 
 #clipboard 
 copyq &
 
+# additional programs
+redshift &
