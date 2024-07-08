@@ -40,7 +40,7 @@
        following: 'Mouse' - where the mouse is, or
                   'Active' - where the active window is -->
   <theme>
-    <name>oomox-nord_zodd_</name>
+    <name>NumixSolarizedDarkCyan</name>
     <titleLayout>IMC</titleLayout>
     <!--       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -155,7 +155,7 @@
     <right>10</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>BottomLeft</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -406,11 +406,6 @@
         <command>min-browser</command>
       </action>
     </keybind>
-    <keybind key="W-space">
-      <action name="Execute">
-        <command>rofi -drun-use-desktop-cache -show drun</command>
-      </action>
-    </keybind>
     <keybind key="W-f">
       <action name="Execute">
         <command>librewolf</command>
@@ -426,9 +421,14 @@
         <command>amixer sset Master 5%-</command>
       </action>
     </keybind>
+    <keybind key="W-space">
+      <action name="Execute">
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
-    <dragThreshold>1</dragThreshold>
+    <dragThreshold>5</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
     <doubleClickTime>500</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
