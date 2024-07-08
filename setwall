@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale 'snow-cap.jpg' 
+feh --no-fehbg --bg-scale 'walls/snow-cap.png' 
