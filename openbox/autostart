@@ -11,8 +11,8 @@
 setwall &
 
 # Set keyboard layout..
-setxkbmap --layout "us" &
-
+setxkbmap --layout "us" -option "caps:swapescape" &
+ 
 #PowerManagement
 xfce4-power-manager &
 
@@ -28,7 +28,7 @@ xcompmgr -r 9.8 -o 0.61 -l -13.8 -t -14.5 -I 0.017 -O 0.02 -D 6.0 -c -C -f -F -n
 #xfce notification daemon
 xfce4-notifyd &
 
- Onscreen information
+#Onscreen information
 conky &
 
 # Network applet
