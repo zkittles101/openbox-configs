@@ -11,8 +11,11 @@
 setwall &
 
 # Set keyboard layout..
-setxkbmap --layout "us" -option "caps:swapescape" &
- 
+setxkbmap --layout "us" &
+
+# Swap capslock and esc key 
+xmodmap ~/.Xmodmap &
+
 #PowerManagement
 xfce4-power-manager &
 
