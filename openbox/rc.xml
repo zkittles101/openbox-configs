@@ -54,8 +54,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo Semi-Bold</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -63,8 +63,8 @@
     </font>
     <!-- 'italic' or 'normal' -->
     <font place="InactiveWindow">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo Semi-Bold</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -72,8 +72,8 @@
     </font>
     <!-- 'italic' or 'normal' -->
     <font place="MenuHeader">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -81,8 +81,8 @@
     </font>
     <!-- 'italic' or 'normal' -->
     <font place="MenuItem">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -90,19 +90,19 @@
     </font>
     <!-- 'italic' or 'normal' -->
     <font place="ActiveOnScreenDisplay">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
     </font>
     <!-- 'italic' or 'normal' -->
     <font place="InactiveOnScreenDisplay">
-      <name>Roboto</name>
-      <size>9</size>
+      <name>JetBrainsMono Nerd Font Propo</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
     </font>
